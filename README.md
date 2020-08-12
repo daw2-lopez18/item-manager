@@ -2,8 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5. Also the following resources are use:
 
-|<img width="100" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">  | <img width="100" src="https://www.picuino.com/_images/css3-logo.png"> | <img width="100" src="https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png">  |  <img width="100" src="https://i.pinimg.com/originals/8b/c2/bb/8bc2bb822959372585c3fe79a75affed.gif"> | <img width="100" src="https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png">  |  <img width="100" src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg">| <img width="100" src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png">
-| -
+<img width="100" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">  <img width="100" src="https://www.picuino.com/_images/css3-logo.png">  <img width="100" src="https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png">  <img width="100" src="https://i.pinimg.com/originals/8b/c2/bb/8bc2bb822959372585c3fe79a75affed.gif">  <img width="100" src="https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png"> <img width="100" src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg"> <img width="100" src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png">
 
 
 
