@@ -2,3 +2,32 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+input[type="search"]
+{
+    background-color: #ECEFF1;
+    border-radius: 21px;
+    border: 1px solid transparent;
+    height: 35px;
+    outline: none;
+}
+
+select[name="DataTables_Table_0_length"] {
+    background-color: #ECEFF1;
+    border-radius: 21px;
+    border: 1px solid transparent;
+    height: 35px;
+    width: 75px;
+  }
+
+  .btnWishList{
+    background-color: #13C1AC;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 300;
+    color: white;
+    padding: 10px; 
+  }
+  .btnWishList:hover{
+    background-color: #2BA696;
+  }

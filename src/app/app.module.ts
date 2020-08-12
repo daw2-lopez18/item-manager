@@ -16,6 +16,10 @@ import { PaginatePipe } from './pipes/paginate.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WishlistPipe } from './pipes/wishlist.pipe';
 
+/*Datatable http://l-lin.github.io/angular-datatables/#/getting-started*/
+import { DataTablesModule } from 'angular-datatables';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +34,8 @@ import { WishlistPipe } from './pipes/wishlist.pipe';
     HttpClientModule,
     BrowserAnimationsModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
