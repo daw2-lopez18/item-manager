@@ -23,12 +23,12 @@ export class ListComponent implements OnDestroy, OnInit {
 	  
 	  this.dtOptions = {
 		pagingType: 'full_numbers',
-		pageLength: 5,
+		pageLength: 5/*,
 		language: {
 			url: '//cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json'
-		}
+		}*/
 	  };	  
-	  this._http.get('http://frontend-tech-test-data.s3.eu-west-1.amazonaws.com/items.json')      
+	  this._http.get('https://frontend-tech-test-data.s3.eu-west-1.amazonaws.com/items.json')      
       .subscribe((res: any) => {
 		this.data = res.data;		
 		this.dtTrigger.next();
@@ -44,23 +44,23 @@ export class ListComponent implements OnDestroy, OnInit {
   
   //Add Wish List	
   wishList(item) { 
+	
     if(this.items[item].whitelist == "false"){
-      var test = this.items[item].whitelist = "true";
-      var img = document.getElementById("imgWishList" + item);
-      var img2 = img.setAttribute("src","./assets/images/favorito.png");
-      console.log(this.items[item]);
+		var test = this.items[item].whitelist = "true";
+		var img = document.getElementById("imgWishList" + item);
+		var img2 = img.setAttribute("src","./assets/images/favorito.png");
+		console.log(this.items[item]);
     }else{
-      var test = this.items[item].whitelist = "false";
-      var img = document.getElementById("imgWishList" + item);
-      var img2 = img.setAttribute("src","./assets/images/sinFavorito.png");  
-      //console.log(this.items[item]);
+		var test = this.items[item].whitelist = "false";
+		var img = document.getElementById("imgWishList" + item);
+		var img2 = img.setAttribute("src","./assets/images/sinFavorito.png");  
+		//console.log(this.items[item]);
     }
 
   }//End Add Wish List
 
-//Remove Wish List	
+//Remove Wish List Modal	
   remove(i) {   
-
 	var check = this.items.find( producto => producto.title === i );
 	var titulo = check.title;
 	var indice = this.items.findIndex(x => x.title === titulo);	  
@@ -75,7 +75,7 @@ export class ListComponent implements OnDestroy, OnInit {
 		console.log(img);
 		//var img2 = img.setAttribute("src","./assets/images/favorito.png");
 	  }
-  }//End Remove Wish List
+  }//End Remove Wish List Modal
 
   /* Filtro de búsqueda para WishList */
   get favourites() {	
@@ -91,8 +91,7 @@ export class ListComponent implements OnDestroy, OnInit {
 	}
  
   } /* Fin búsqueda wishlist */
-  
-
+ 
   
   items = [
 	{

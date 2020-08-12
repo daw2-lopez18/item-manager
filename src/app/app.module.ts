@@ -12,7 +12,6 @@ import { FormsModule } from '@angular/forms';
 /*Paginación*/
 import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
-import { PaginatePipe } from './pipes/paginate.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WishlistPipe } from './pipes/wishlist.pipe';
 
@@ -25,7 +24,6 @@ import { DataTablesModule } from 'angular-datatables';
     AppComponent,
     ListComponent,
     FilterPipe,
-    PaginatePipe,
     WishlistPipe
   ],
   imports: [

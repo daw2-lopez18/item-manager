@@ -31,3 +31,41 @@ select[name="DataTables_Table_0_length"] {
   .btnWishList:hover{
     background-color: #2BA696;
   }
+
+  .paginate_button{
+    border-radius: 20px !important;
+    background: #D7D7D7;
+  }
+
+  .paginate_button:hover{
+    background: #13C1AC !important;
+  }
+  .current{
+    background: #13C1AC !important;
+
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .hideMovil {
+      display: none;
+    }
+    .dataTables_length{
+      display: none;
+    }
+    .dataTables_filter{
+      float: right !important;
+      padding: 10px;
+    }
+    #DataTables_Table_0_info{
+      display: none;
+    }
+    .first{
+      display: none !important;
+    }
+    .last{
+      display: none !important;
+    }
+  }
+
+  
