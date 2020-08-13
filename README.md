@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Node JS once installed you must run the command `npm install -g npm@latest` in the console. In this way, the Node package manager will be updated. Then execute `npm cache clean --force` command to clear the NPM cache.
 - To disable NPM audits and avoid failures run the command `npm set audit false`.
 - Then we install the latest version of angular with the command `npm install -g @angular/cli@latest`.
-- Next we download the application code at github.com and save it in a directory on our computer.
+- Next we download the application code at https://github.com/daw2-lopez18/item-manager and save it in a directory on our computer.
 - Through the command line we access the project folder and execute the command `npm install --save-dev @angular-devkit/build-angular` to install de devkit package. 
 - Finally run `ng serve` and this will generate a dev server on `http://localhost:4200/` which we can access through a browser.
 
